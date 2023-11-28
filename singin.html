@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        body{
+            background:url("bg7.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            font-size: 15px;
+        }
+        form{
+            color: white;
+            margin:1px solid black;
+            background:rgba(0, 0, 0, 0.8);
+            width:300px;
+            margin:auto;
+            padding:100px 50px;
+            border-radius: 5px;
+        }
+        #p1{
+            text-align: start;
+            font-size:25px;
+        } 
+        #email,#pass,button{
+            background:black;
+            width:250px;
+            margin:10px 0px;
+            border-radius: 5px;
+            padding:10px;
+        }
+        button{
+            display: block;
+            color:white;
+            width:150px;
+            margin:auto;
+            background: red;
+            border:1px solid red;
+        }
+        form a{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="bg2.png" width="200px">
+    <form>
+        <p id="p1">Sign In</p>
+        <input type="email" placeholder="Email address" id="email" name="email" required>
+        <input type="password" placeholder="Password" id="pass" name="pass" required><br><br>
+        <button>Submit</button><br>
+        <input type="checkbox" id="chk" name="chk">
+        <label for="chl">&nbsp;Remember me</label><br><br><br>
+        <p>New to Netflix?<a href="homepage.html"> Sign up now.</a></p>
+    </form>
+</header>
+</body>
+</html>

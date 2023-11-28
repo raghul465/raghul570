@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".f1").click(function(){
+                $("#child").slideToggle();
+            });
+        });
+        $(document).ready(function(){
+            $(".f2").click(function(){
+                $("#child1").slideToggle();
+            });
+        });
+        $(document).ready(function(){
+            $(".f3").click(function(){
+                $("#child2").slideToggle();
+            });
+        });
+        $(document).ready(function(){
+            $(".f4").click(function(){
+                $("#child3").slideToggle();
+            });
+        });
+        $(document).ready(function(){
+            $(".f5").click(function(){
+                $("#child4").slideToggle();
+            });
+        });
+    </script>
+    <title>Netflix</title>
+</head>
+<body>
+<header>
+    <div id="bg1">
+        <img src="bg2.png" width="200px">
+        <div id="flex">
+            <select>
+                <option value="English">English</option>
+            </select>
+            <button onclick="location.href='singin.html'">Sign In</button>
+        </div>
+        <div class="home">
+            <br><br><br><br><br>
+            <p id="p1">Laughter. Tears. Thrills. Find it all on <br>Netflix</p><br>
+            <p id="p2">Endless entertainment starts at just ₹ 149. Cancel anytime.<br><br>
+                Ready to watch? Enter your email to create or restart your membership.</p><br><br>
+                <input type="email" placeholder="Email address" name="email" id="email">
+                <button>Get Started&nbsp; <i class="fa-thin fa-greater-than"></i></button>
+            </div>
+        </div>
+</header>
+        <hr>
+    <div id="bg2">
+        <div id="para">
+            <p id="p3">Enjoy on your TV</p><br><br>    
+            <p id="p4">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+        <img src="bg3.gif" width="600px">
+    </div>
+    <hr>
+    <div id="bg3">
+        <img src="bg4.gif" width="600px">
+        <div id="para1">
+            <p id="p5">Download your shows to watch offline</p><br><br>
+            <p id="p6">Save your favourites easily and always have something to watch.</p>
+        </div>
+    </div>
+    <hr>
+    <div id="bg4">
+        <div id="para2">
+            <p id="p7">Watch everywhere</p><br><br>
+            <p id="p8">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+        <img src="bg5.gif" width="500px">
+    </div>
+    <hr>
+    <div id="bg5">
+        <img src="bg6.png" width="600px">
+        <div id="para3">
+            <p id="p9">Create profiles for kids</p><br><br>
+            <p id="p10">Send children on adventures with their favourite characters 
+                in a space made just for them—free with your membership.</p>
+        </div>
+    </div>
+    <hr>
+    <div id="bg6">
+        <div id="para4">
+            <p id="p11">Frequently Asked Questions</p><br><br>
+        </div>
+        <div id="para5">
+            <div class="flex f1">
+                <p id="p12">What is Netflix?</p>
+                <i class="fa-light fa-plus fa-lg"></i>
+            </div>
+            <div id="child">
+                Netflix is a streaming service that offers a wide variety of award-winning TV shows, 
+                movies, anime, documentaries and more - on thousands of internet-connected devices.<br><br>
+                You can watch as much as you want, whenever you want, without a single ad - all
+                for one low monthly price. There's always something new to discover, and new TV shows 
+                and movies are added every week!
+            </div>
+        </div>
+        <div id="para6">
+            <div class="flex f2">
+                <p id="p13">How much does Netflix cost?</p>
+                <i class="fa-light fa-plus fa-lg"></i>
+            </div>
+            <div id="child1">
+                Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device,
+                all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+            </div>
+        </div>
+        <div id="para7">
+            <div class="flex f3">
+                <p id="p14">Where can I watch?</p>
+                <i class="fa-light fa-plus fa-lg"></i>
+            </div>
+            <div id="child2">
+                Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com 
+                from your personal computer or on any internet-connected device that offers the Netflix app,
+                including smart TVs, smartphones, tablets, streaming media players and game consoles.<br><br>
+                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads 
+                to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+            </div>
+        </div>
+        <div id="para8">
+            <div class="flex f4">
+                <p id="p15">How do I cancel?</p>
+                <i class="fa-light fa-plus fa-lg"></i>
+            </div>
+            <div id="child3">
+                Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your 
+                account online in two clicks. There are no cancellation fees - start or stop your account anytime.
+            </div>
+        </div>
+        <div id="para9">
+            <div class="flex f5">
+                <p id="p16">Is Netflix good for kids?</p>
+                <i class="fa-light fa-plus fa-lg"></i>
+            </div>
+            <div id="child4">
+                The Netflix Kids experience is included in your membership to give parents control while kids 
+                enjoy family-friendly TV shows and films in their own space.<br><br>
+                Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating 
+                of content kids can watch and block specific titles you don't want kids to see.
+            </div>
+        </div>
+        <div class="home">
+            <p id="p17">Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="email" placeholder="Email address" name="email" id="email">
+            <button>Get Started&nbsp; <i class="fa-thin fa-greater-than"></i></button>
+        </div>
+    </div>
+    <hr>
+    <div id="bg7">
+        <p id="p18">Questions? Call 000-800-919-1694</p><br><br>
+        <div id="foot">
+            <a href="#bottom">FAQ</a>
+            <a href="#bottom">Help Centre</a>
+            <a href="#bottom">Account</a><br>
+            <a href="#bottom">Media Centre</a>
+            <a href="#bottom">Investor Relations</a>
+            <a href="#bottom">Jobs</a>
+            <a href="#bottom">Ways to Watch</a>
+            <a href="#bottom">Terms of Use</a>
+            <a href="#bottom">Privacy</a>
+            <a href="#bottom">Cookie Preferences</a>
+            <a href="#bottom">Corporate Information</a>
+            <a href="#bottom">Contact Us</a>
+            <a href="#bottom">Speed Test</a>
+            <a href="#bottom">Only on Netflix</a>
+        </div><br><br>    
+        <p id="p19">Netflix India</p>   
+    </div>
+</body>
+</html>

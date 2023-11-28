@@ -1,0 +1,109 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    color:white;
+    font-weight: bolder;
+}
+#bg1{
+    background:url("bg1.jpg");
+    background-size:cover;
+    padding-bottom:200px;
+}
+#bg2,#bg3,#bg4,#bg5{
+    background:rgba(0,0,0);
+    background-size:cover;
+    padding:200px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bg6,#bg7{
+    background:rgba(0,0,0);
+    background-size:cover;
+    padding:150px 100px;
+}
+#flex{
+   position:absolute;
+   top:20px;
+   right:20px;
+}
+select,button{
+    background:black;
+    color:white;
+    padding:5px;
+    margin:0px 25px;
+    border-radius: 5px;
+}
+button{
+    background:red;
+    border:1px solid red;
+}
+.home{
+    text-align:center;
+}
+#p1,#p2,#p3,#p5,#p7,#p9,#p11{
+    font-size:50px;
+}
+#p2{
+    font-size:25px;
+}
+.home button{
+    padding:10px;
+    width:150px;
+    border-radius: 5px;
+    height:50px;
+}
+.home input{
+    padding:10px;
+    height: 30px;
+    width:250px;
+    background:rgba(0,0,0,0.5);
+    color:white;
+    border: 1px solid black;
+}
+#p4,#p6,#p8,#p10,#bg6{
+    font-size:20px;
+}
+#bg4 img{
+    margin:30px;
+}
+hr{
+    height:5px;
+    background:rgb(85, 85, 85);
+    border:1px solid rgb(85, 85, 85);
+}
+#p11{
+    text-align: center;
+}
+.flex,#child,#child1,#child2,#child3,#child4{
+    cursor:pointer;
+    margin:auto;
+    border:1px solid black;
+    background:rgb(85, 85, 85);
+    padding:30px;
+    width:800px;
+}
+#child,#child1,#child2,#child3,#child4{
+    display:none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+#p17{
+   margin:50px;
+}
+#foot{
+    display: flex;
+    width:600px;
+    margin:auto;
+    gap: 50px 80px ;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+}
+#foot a{
+    color:white;
+}
